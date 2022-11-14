@@ -144,7 +144,7 @@ Speed = 9600
 if __name__=='__main__':
 
     #serial setting 
-    ser = serial.Serial(SERIAL_PORT, Speed, timeout = 0)
+    ser = serial.Serial(SERIAL_PORT, Speed, timeout = 1)
 
     dust = PMS7003()
 
