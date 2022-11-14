@@ -25,7 +25,6 @@ CHECKSUM               = Checksum code
 import serial
 import struct
 import time
-import PMS7003
 
 
 class PMS7003(object):
