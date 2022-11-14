@@ -1,6 +1,6 @@
 # sudo pip3 install Adafruit_DHT
 
-import Adafruit_DHT as dht
+import adafruit_dht
 import time
 
 while True:
