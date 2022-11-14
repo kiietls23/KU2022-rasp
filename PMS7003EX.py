@@ -141,6 +141,7 @@ Speed = 9600
 
 
 # example
+"""
 if __name__=='__main__':
 
     #serial setting 
@@ -166,3 +167,22 @@ if __name__=='__main__':
 
 
     ser.close()
+"""
+
+ser = serial.Serial(SERIAL_PORT, Speed, timeout = 5)
+
+dust = PMS7003()
+
+ser.flushInput()
+buffer = ser.read(1024)
+
+if(dust.protocol_chk(buffer)):
+        
+    print("DATA read success")
+        
+    # print data
+    dust.print_serial(buffer)
+            
+else:
+
+    print("DATA read fail...")
