@@ -5,7 +5,7 @@ import board
 dht = adafruit_dht.DHT22(board.D4)
 
 
-tem = dht_device.temperature
-hum = dht_device.humidity
+tem = dht.temperature
+hum = dht.humidity
 
 print(tem, hum)
