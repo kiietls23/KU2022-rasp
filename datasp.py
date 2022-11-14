@@ -25,8 +25,6 @@ CHECKSUM               = Checksum code
 import serial
 from PMS7003 import PMS7003
 
-import Adafruit_DHT as dht
-import time
 
 dust = PMS7003()
 
@@ -58,9 +56,3 @@ else:
     print ("data read Err")
 
 ser.close()
-
-#온습도
-while True:
-    humidity, temperature = dht.read_retry(dht.DHT22, 4)
-    print("Temp={0:0.1f}*C  Humidity={1:0.1f}%".format(temperature, humidity))   
-	time.sleep(1)
