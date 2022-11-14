@@ -23,7 +23,34 @@ CHECKSUM               = Checksum code
 """
 
 import serial
-from PMS7003 import PMS7003
+import struct
+import time
+
+
+class PMS7003(object):
+
+    # PMS7003 protocol data (HEADER 2byte + 30byte)
+    PMS_7003_PROTOCOL_SIZE = 32
+
+    # PMS7003 data list
+    HEADER_HIGH            = 0  # 0x42
+    HEADER_LOW             = 1  # 0x4d
+    FRAME_LENGTH           = 2  # 2x13+2(data+check bytes) 
+    DUST_PM1_0_CF1         = 3  # PM1.0 concentration unit μ g/m3（CF=1，standard particle）
+    DUST_PM2_5_CF1         = 4  # PM2.5 concentration unit μ g/m3（CF=1，standard particle）
+    DUST_PM10_0_CF1        = 5  # PM10 concentration unit μ g/m3（CF=1，standard particle）
+    DUST_PM1_0_ATM         = 6  # PM1.0 concentration unit μ g/m3（under atmospheric environment）
+    DUST_PM2_5_ATM         = 7  # PM2.5 concentration unit μ g/m3（under atmospheric environment）
+    DUST_PM10_0_ATM        = 8  # PM10 concentration unit μ g/m3  (under atmospheric environment) 
+    DUST_AIR_0_3           = 9  # indicates the number of particles with diameter beyond 0.3 um in 0.1 L of air. 
+    DUST_AIR_0_5           = 10 # indicates the number of particles with diameter beyond 0.5 um in 0.1 L of air. 
+    DUST_AIR_1_0           = 11 # indicates the number of particles with diameter beyond 1.0 um in 0.1 L of air. 
+    DUST_AIR_2_5           = 12 # indicates the number of particles with diameter beyond 2.5 um in 0.1 L of air. 
+    DUST_AIR_5_0           = 13 # indicates the number of particles with diameter beyond 5.0 um in 0.1 L of air. 
+    DUST_AIR_10_0          = 14 # indicates the number of particles with diameter beyond 10 um in 0.1 L of air. 
+    RESERVEDF              = 15 # Data13 Reserved high 8 bits
+    RESERVEDB              = 16 # Data13 Reserved low 8 bits
+    CHECKSUM               = 17 # Checksum code
 
 
 dust = PMS7003()
