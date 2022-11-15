@@ -1,22 +1,34 @@
-import Adafruit_DHT
+import time
+import board
+import adafruit_dht
 
-# Sensor should be set to Adafruit_DHT.DHT11,
-# Adafruit_DHT.DHT22, or Adafruit_DHT.AM2302.
-sensor = Adafruit_DHT.DHT22
+# Initial the dht device, with data pin connected to:
+dhtDevice = adafruit_dht.DHT22(board.D18)
 
-# Example using a Raspberry Pi with DHT sensor
-# connected to GPIO23.
-pin = 23
+# you can pass DHT22 use_pulseio=False if you wouldn't like to use pulseio.
+# This may be necessary on a Linux single board computer like the Raspberry Pi,
+# but it will not work in CircuitPython.
+# dhtDevice = adafruit_dht.DHT22(board.D18, use_pulseio=False)
 
-# Try to grab a sensor reading.  Use the read_retry method which will retry up
-# to 15 times to get a sensor reading (waiting 2 seconds between each retry).
-humidity, temperature = Adafruit_DHT.read_retry(sensor, pin)
+while True:
+    try:
+        # Print the values to the serial port
+        temperature_c = dhtDevice.temperature
+        temperature_f = temperature_c * (9 / 5) + 32
+        humidity = dhtDevice.humidity
+        print(
+            "Temp: {:.1f} F / {:.1f} C    Humidity: {}% ".format(
+                temperature_f, temperature_c, humidity
+            )
+        )
 
-# Note that sometimes you won't get a reading and
-# the results will be null (because Linux can't
-# guarantee the timing of calls to read the sensor).
-# If this happens try again!
-if humidity is not None and temperature is not None:
-    print('Temp={0:0.1f}*C  Humidity={1:0.1f}%'.format(temperature, humidity))
-else:
-    print('Failed to get reading. Try again!')
+    except RuntimeError as error:
+        # Errors happen fairly often, DHT's are hard to read, just keep going
+        print(error.args[0])
+        time.sleep(2.0)
+        continue
+    except Exception as error:
+        dhtDevice.exit()
+        raise error
+
+    time.sleep(2.0)
