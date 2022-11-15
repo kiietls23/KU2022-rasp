@@ -1,10 +1,10 @@
 import adafruit_dht
 
-#dht_device = adafruit_dht.DHT22(4)
-dht = adafruit_dht.DHT22(4)
+dhtDevice = adafruit_dht.DHT22(board.D4)
+#dht = adafruit_dht.DHT22(4)
 
 
-tem = dht.temperature
-hum = dht.humidity
+t = dht.temperature
+h = dht.humidity
 
-print(tem, hum)
+print(t, h)
