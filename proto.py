@@ -188,4 +188,4 @@ dhtDevice = adafruit_dht.DHT22(board.D24)
 temperature_c = dhtDevice.temperature
 temperature_f = temperature_c * (9 / 5) + 32
 humidity = dhtDevice.humidity
-print(온도: {:.1f} F / {:.1f} C       습도: {}%.format(temperature_f, temperature_c, humidity))
+print("온도: {:.1f} F / {:.1f} C       습도: {}%".format(temperature_f, temperature_c, humidity))
