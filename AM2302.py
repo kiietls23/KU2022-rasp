@@ -4,7 +4,7 @@ dhtDevice = adafruit_dht.DHT22(board.D4)
 #dht = adafruit_dht.DHT22(4)
 
 
-t = dht.temperature
-h = dht.humidity
+t = dhtDevice.temperature
+h = dhtDevice.humidity
 
 print(t, h)
