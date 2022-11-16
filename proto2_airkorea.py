@@ -12,14 +12,14 @@ import requests
 from bs4 import BeautifulSoup
 import pandas
 
-# requests CERTIFICATE_VERIFY_FAILED 경고 무시
-# session = requests.Session()
-# session.verify = False
-# session.post(url='https://foo.com', data={'bar':'baz'})
-
 M = '&numOfRows=1&pageNo=1&stationName=신흥동&dataTerm=DAILY&ver=1.3'
 key ='tsFgvelgFo8g9a12hc4f1YCn9z2S16kGxMe7FbBTAaPyEcR8gI2K8bFpegdO2S4ngadYMTWn64d0MFzYHzH71w%3D%3D'
 url ='https://apis.data.go.kr/B552584/ArpltnInforInqireSvc/getMsrstnAcctoRltmMesureDnsty?serviceKey=' + key + M
+
+# requests CERTIFICATE_VERIFY_FAILED 경고 무시
+session = requests.Session()
+session.verify = False
+session.post(url='https://apis.data.go.kr/B552584/ArpltnInforInqireSvc/getMsrstnAcctoRltmMesureDnsty?serviceKey=' + key + M, data={'bar':'baz'})
 
 response = requests.get(url)
 soup = BeautifulSoup(response.text, "html.parser")
