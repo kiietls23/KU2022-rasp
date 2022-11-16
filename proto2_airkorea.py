@@ -11,6 +11,9 @@ import adafruit_dht
 import requests
 from bs4 import BeautifulSoup
 import pandas
+import urllib3 # 경고 무시
+
+logging.captureWarnings(True)
 
 M = '&numOfRows=1&pageNo=1&stationName=신흥동&dataTerm=DAILY&ver=1.3'
 key ='tsFgvelgFo8g9a12hc4f1YCn9z2S16kGxMe7FbBTAaPyEcR8gI2K8bFpegdO2S4ngadYMTWn64d0MFzYHzH71w%3D%3D'
