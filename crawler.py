@@ -5,7 +5,7 @@ M='&numOfRows=1&pageNo=1&stationName=신흥동&dataTerm=DAILY&ver=1.0'
 key='tsFgvelgFo8g9a12hc4f1YCn9z2S16kGxMe7FbBTAaPyEcR8gI2K8bFpegdO2S4ngadYMTWn64d0MFzYHzH71w%3D%3D'
 url='http://openapi.airkorea.or.kr/openapi/services/rest/ArpltnInforInqireSvc/getMsrstnAcctoRltmMesureDnsty?serviceKey='+key+M
 
-response-requests.get(url)
+response=requests.get(url)
 soup=BeautifulSoup(response.text, "html.parser")
 ItemList=soup.findAll('item')
 for item in ItemList:
