@@ -1,4 +1,4 @@
-from matlotlib import pyplot as plt
+from matplotlib import pyplot as plt
 from matplotlib import animation
 import numpy as np
 import time
