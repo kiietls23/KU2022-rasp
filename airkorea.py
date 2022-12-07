@@ -13,6 +13,6 @@ response = urllib.request.urlopen(request)
 rescode = response.getcode()
 if(rescode==200):
   response_body = response.read()
-  print(response_body.decode('utf-8'))
+  print(response_body.decode('utf8'))
 else:
   print("Error Code:" + rescode)
