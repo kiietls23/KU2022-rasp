@@ -6,7 +6,7 @@ import time
 import board
 import adafruit_dht
 
-fig = plt.fiqure()
+fig = plt.figure()
 ax = plt.axes(xlim=(0, 50), ylim=(15, 45))
 line, = ax.plot([], [], lw=1, c='yellow', marker='d', ms=2)
 max_points = 50
