@@ -31,7 +31,7 @@
 ## 🧑‍💻 개발 인원(1명)
 이름 | github | blog
 -- | -- | -- 
-박신영(PM) | https://github.com/kiietls23 | https://logforlog.tistory.com/
+박신영 | https://github.com/kiietls23 | https://logforlog.tistory.com/
 
 
 <br>
