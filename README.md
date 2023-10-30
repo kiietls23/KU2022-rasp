@@ -1,9 +1,9 @@
 # 🔗 목차
 
-1. [KU2022_PEparser](#-KU2022_PEparser)
+1. [KU2022_rasp](#-KU2022_rasp)
 2. [최종 결과](#🔖-최종-결과)
 3. [개발 기간](#📆-개발-기간)
-4. [개발 인원](#💻-개발-인원3명)
+4. [개발 인원](#💻-개발-인원1명)
 5. [기술 스택](#✍-기술-스택)
 6. [요구 사항](#🛠️-Requirements)
 7. [화면 설계](#📚-화면-설계)
@@ -12,7 +12,7 @@
 
 <br>
 
-# :triangular_flag_on_post: KU2022_PEparser
+# :triangular_flag_on_post: KU2022_rasp
 - 라즈베리 파이 기반 미세먼지 탐지기 개발
 
 <br>
@@ -39,7 +39,7 @@
 ## ✍ 기술 스택
 Language | Platform | RTE | Tool
 | :----------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------: 
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> | <img src="https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter"> | <img src="https://img.shields.io/badge/-RaspberryPi-C51A4A?style=for-the-badge&logo=Raspberry-Pi"> | <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white"> <br> <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=Discord&logoColor=white">
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> | <img src="https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg"> | <img src="https://img.shields.io/badge/-RaspberryPi-C51A4A?style=for-the-badge&logo=Raspberry-Pi"> | <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white">
 
 <br>
 
