@@ -47,46 +47,46 @@ Language | Platform | RTE | Tool
 
  * ***타겟 설정***
 
-  <img width="80%" src="https://user-images.githubusercontent.com/48422575/278925021-37c852fe-2c9a-4bbf-a6bc-46ddaea5aeae.png"/>
+  <img width="80%" src=""/>
 
 
  * ***유저 시나리오***
 
-  <img width="80%" src="https://user-images.githubusercontent.com/48422575/278925988-56970065-31e3-4018-8801-4e9189bb2887.PNG"/>
+  <img width="80%" src=""/>
 
 
   * ***요구사항 도출***
   
-    * 리버싱에 필요한 실행 파일의 정보 (주로 주소) 를 파싱
+    * 리
   
-    * 초보 학습자와 전문 분석가에게 모두 직관적이고 유용한 학습 툴
+    * 초
     
-    * 스트링 형태의 보안 데이터 시각화를 최종 목표로 함
+    * 스
     
 
   * ***기능명세서***
 
-  <img width="80%" src="https://user-images.githubusercontent.com/48422575/278928472-2e2dc2ca-60fa-4bd1-9bc1-997df166f3a3.png"/>
+  <img width="80%" src=""/>
 
 
 
 <br>
 
 ## 🖥 화면 설계
-<img width="80%" src="https://user-images.githubusercontent.com/48422575/278935900-1b3c5694-958b-4b6d-95c6-18f7d3cb721d.PNG"/>
-<img width="80%" src="https://github.com/kiietls23/KU2022_PEparser/assets/48422575/9ca1205c-d376-4afd-b8f4-3b35e4e5c710"/>
+<img width="80%" src=""/>
+<img width="80%" src=""/>
 
 
 
 <br>
 
-# 📝 프로젝트 진행 관리: 
-### 🔗 URL
+# 📝 프로젝트 진행 관리: Notion
+### 🔗 [Notion URL]()
 
 
 <br>
 
 # 📝 최종 산출물 - 발표 PPT
-### 🔗 [발표자료](https://github.com/kiietls23/KU2022_PEparser/blob/main/%ED%8C%80%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EC%B5%9C%EC%A2%85.pdf)
+### 🔗 [발표자료]()
 
 
