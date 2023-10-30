@@ -13,7 +13,7 @@
 <br>
 
 # :triangular_flag_on_post: KU2022_PEparser
-- 원하는 핵심 정보를 간편하게 파악 가능하고 처음 보는 사람도 쉽게 사용할 수 있는 파일 분석 프로그램 제작
+- 라즈베리 파이 기반 미세먼지 탐지기 개발
 
 <br>
 
@@ -23,17 +23,15 @@
 <br>
 
 ## 📆 개발 기간
-- 2022.10.04 ~ 2022.12.13
-<img width="80%" src="https://user-images.githubusercontent.com/48422575/278928971-ee691e4d-d646-4efe-9eb7-7d34bb11e65d.PNG"/>
+- 2022.10.12 ~ 2022.12.13
+<img width="80%" src="https://private-user-images.githubusercontent.com/48422575/278938041-3e8cde1a-1ecf-4dfe-a8ac-5cab1c51c374.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTg2Mzk4ODIsIm5iZiI6MTY5ODYzOTU4MiwicGF0aCI6Ii80ODQyMjU3NS8yNzg5MzgwNDEtM2U4Y2RlMWEtMWVjZi00ZGZlLWE4YWMtNWNhYjFjNTFjMzc0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzEwMzAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMDMwVDA0MTk0MlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWRhMmQyNmUxMWQ1YjQ5ZmI3NmJhMzgxY2FjMjRmNjkxNjAwZGU5YmVhNDQ4NTFlNjBhOTIxZmE3NTQ4YTg2MjMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.757aYn79B-BWIZs0xBqiwtlnfIKD8iKoctV7DDWUVHQ"/>
 
 <br>
 
-## 🧑‍💻 개발 인원(3명)
-이름 | github | blog | roles
--- | -- | -- | --
-박신영(PM) | https://github.com/kiietls23 | https://logforlog.tistory.com/ | 분석 및 선별 정보 시각화 기획 <br> 화면 설계 및 프로토타입 디자인 <br> 산출물 제작
-김선우 | https://github.com/sunuukim | https://blog.naver.com/cys192k | 시스템 개발 <br> 버전 관리 <br> GUI 적용
-서혁 | https://github.com/seohyeok | | 테스팅 리서치 <br> QA
+## 🧑‍💻 개발 인원(1명)
+이름 | github | blog
+-- | -- | -- 
+박신영(PM) | https://github.com/kiietls23 | https://logforlog.tistory.com/
 
 
 <br>
@@ -41,7 +39,7 @@
 ## ✍ 기술 스택
 Language | Platform | RTE | Tool
 | :----------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------: 
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> | <img src="https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter"> | <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white"> | <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white"> <br> <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=Discord&logoColor=white">
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> | <img src="https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter"> | <img src="https://img.shields.io/badge/-RaspberryPi-C51A4A?style=for-the-badge&logo=Raspberry-Pi"> | <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white"> <br> <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=Discord&logoColor=white">
 
 <br>
 
