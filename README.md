@@ -47,21 +47,18 @@ Language | IDE | RTE | Tool
 
  * ***타겟 설정***
 
-  <img width="80%" src=""/>
-
-
- * ***유저 시나리오***
-
-  <img width="80%" src=""/>
+  <img width="60%" src="https://user-images.githubusercontent.com/48422575/279244283-2067a8f1-e059-474b-907e-f64f0bd0be31.png"/>
 
 
   * ***요구사항 도출***
   
-    * 리
+    * 라즈베리파이 보드와 미세먼지 센서를 연동하여 현 위치의 실시간 미세먼지 수치 측정
   
-    * 초
+    * OpenAPI 활용한 주변 지역 대기질 및 예보 경보 획득
     
-    * 스
+    * 측정 수치와 예보 정보를 종합해 사용자에게 편리한 분석/경보 기능 제공
+      
+    * WebUI를 적용해 쉬운 작동 방식과 오류회복성이 있는 프로그램 작성
     
 
   * ***기능명세서***
@@ -73,9 +70,7 @@ Language | IDE | RTE | Tool
 <br>
 
 ## 🖥 화면 설계
-<img width="80%" src=""/>
-<img width="80%" src=""/>
-
+<img width="80%" src="https://user-images.githubusercontent.com/48422575/279244826-5398987e-ff80-4450-ad5a-d5aca77847b5.png"/>
 
 
 <br>
