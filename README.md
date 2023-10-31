@@ -18,7 +18,7 @@
 <br>
 
 ## 🔖 최종 결과
-여기에 영상 넣기
+<img width="80%" src="https://user-images.githubusercontent.com/48422575/279246061-098c5634-4490-45f0-96e2-189c801d62c0.png">
 
 <br>
 
@@ -37,9 +37,9 @@
 <br>
 
 ## ✍ 기술 스택
-Language | IDE | RTE | Tool
-| :----------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------: 
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> | <img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white"> | <img src="https://img.shields.io/badge/-RaspberryPi-C51A4A?style=for-the-badge&logo=Raspberry-Pi"> | <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white">
+Language | DB | IDE | RTE | Tool
+| :----------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------: 
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> | <img src="https://img.shields.io/badge/InfluxDB-22ADF6?style=for-the-badge&logo=InfluxDB&logoColor=white"> | <img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white"> | <img src="https://img.shields.io/badge/-RaspberryPi-C51A4A?style=for-the-badge&logo=Raspberry-Pi"> | <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white"> <br> <img src="https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white">
 
 <br>
 
@@ -61,10 +61,6 @@ Language | IDE | RTE | Tool
     * WebUI를 적용해 쉬운 작동 방식과 오류회복성이 있는 프로그램 작성
     
 
-  * ***기능명세서***
-
-  <img width="80%" src=""/>
-
 
 
 <br>
@@ -82,6 +78,5 @@ Language | IDE | RTE | Tool
 <br>
 
 # 📝 최종 산출물 - 발표 PPT
-### 🔗 [발표자료]()
-
-
+### 🔗 [발표자료](https://github.com/kiietls23/KU2022-rasp/blob/main/%5B%EC%BA%A1%EC%8A%A4%ED%86%A4%EB%94%94%EC%9E%90%EC%9D%B8%5D%EB%B0%95%EC%8B%A0%EC%98%81_%EC%B5%9C%EC%A2%85%EB%B0%9C%ED%91%9C.pdf)
+<img width="100%" src="https://user-images.githubusercontent.com/48422575/279246601-d7ba2916-c6be-41f3-b895-6c1c98cc4a66.png">
